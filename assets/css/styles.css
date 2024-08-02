@@ -1,0 +1,28 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+.imagenPrincipal {
+  width: 30vw;
+  height: 30vw;
+}
+
+.Titulo1Principal {
+  color: #1d3557;
+}
+
+.Titulo2Principal {
+  color: #88c3d9;
+}
+
+.botonPrincipal {
+  background-color: #1d3557;
+  color: white;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.alineacionContenidoDerecho {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=styles.css.map */
