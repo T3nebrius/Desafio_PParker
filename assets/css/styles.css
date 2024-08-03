@@ -49,9 +49,38 @@ body {
 }
 
 .img_coffee {
-  width: 30rem;
-  height: 10rem;
+  width: 20rem;
+  height: 8rem;
   object-fit: fill;
+}
+
+.meet_coffee {
+  width: 20rem;
+  font-weight: bold;
+}
+
+.item_datos {
+  display: flex;
+  text-align: left;
+  align-items: first baseline;
+  height: 2rem;
+  width: 50rem;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.item_input {
+  display: flex;
+  text-align: justify;
+  align-items: first baseline;
+  height: 2rem;
+  width: 30rem;
+  gap: 1rem;
+  font-weight: 600;
+}
+
+.contact_form {
+  width: 40rem;
 }
 
 @media only screen and (max-width: 480px) and (min-width: 360px) {
@@ -61,6 +90,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .botonPrincipal {
+    width: 100%;
+  }
   .texto_logo {
     text-align: left;
     width: 45%;
@@ -68,6 +100,18 @@ body {
   }
   .col-12.col-md-6 {
     justify-content: space-between;
+  }
+  .meet_coffee {
+    width: 10rem;
+  }
+  .img_coffee {
+    width: 10rem;
+    height: 4rem;
+    object-fit: fill;
+  }
+  .item_datos {
+    font-size: 0.7rem;
+    width: 20rem;
   }
 }
 
